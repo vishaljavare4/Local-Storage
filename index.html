@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Local Storage Project</title>
+</head>
+<body>
+    <div class="card">
+        <h2>User Information</h2>
+        <form id="userForm">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="input-group">
+                <label for="village">Village:</label>
+                <input type="text" id="village" name="village" required>
+            </div>
+            <div class="input-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <button type="submit" class="btn">Save</button>
+        </form>
+        <div id="userInfo"></div>
+    </div>
+
+    <div style="margin-top: -560px;">
+        <label for="theme">Choose Theme:</label>
+        <select id="theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
